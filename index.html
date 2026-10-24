@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Privacy policy: KidHome and KidHome Listen</title>
+<title>Privacy policy: the KidHome apps</title>
 <style>
   :root { --bg: #ffffff; --text: #1f2430; --muted: #5b6372; --accent: #1565c0; --line: #e3e7ee; }
   @media (prefers-color-scheme: dark) { :root { --bg: #14161c; --text: #e8eaf0; --muted: #a3aab8; --accent: #82b4ff; --line: #2a2f3a; } }
@@ -25,55 +25,163 @@
 </head>
 <body>
 <main>
-<h1>Privacy policy</h1>
-<p class="muted">KidHome and KidHome Listen, made by Oddvalue. Effective 16 October 2026.</p>
-
+<h1>Privacy policy: the KidHome apps</h1>
+<p class="muted">Made by Oddvalue. Effective 24 October 2026.</p>
+<p>This policy covers these apps:</p>
+<ul>
+  <li>KidHome</li>
+  <li>KidHome Listen</li>
+  <li>KidHome Sunrise</li>
+  <li>KidHome Routine</li>
+  <li>KidHome Music</li>
+  <li>KidHome Books</li>
+  <li>KidHome Games</li>
+  <li>KidHome Scribble</li>
+  <li>KidHome Letters</li>
+  <li>KidHome Balls (called 99 Balls on the phone)</li>
+  <li>KidHome Print</li>
+  <li>KidHome Stop Motion</li>
+</ul>
+<h2>In short</h2>
 <div class="summary">
-<p><strong>In short:</strong> the apps don't collect, share or sell any information about you or your child. Neither app has permission to use the internet, so nothing you or your child do in them leaves the device. There are no ads, no accounts, no analytics and no in-app purchases.</p>
+<p>The apps don't collect, share or sell any information about you or your child. None of them has permission to use the internet, so they can't send anything off the phone. There are no ads, no accounts, no analytics, no crash reports and no in-app purchases. The coins in Games and 99 Balls are earned by playing and can't be bought.</p>
 </div>
-
-<h2>What KidHome keeps on the device</h2>
+<p>Everything the apps keep is stored on the phone or tablet they're installed on. The rest of this page says what each app keeps, where it keeps it, and why it needs each permission.</p>
+<h2>How every app works</h2>
+<h3>Your parent PIN</h3>
+<p>The apps keep parent settings behind a four-digit PIN. KidHome stores the PIN as a salted hash, so the PIN itself is never saved. The other apps ask KidHome on the phone whether a PIN is right and get back only yes or no. If KidHome isn't installed, an app keeps its own PIN the same way, as a salted hash on the phone. 99 Balls and Print have no parent settings and no PIN.</p>
+<h3>Backup</h3>
+<p>The apps turn off Android's backup to Google Drive and its copying of app data to a new phone. Settings, PINs, recordings and drawings inside an app stay on the phone they were made on.</p>
+<h3>Files saved where you can see them</h3>
+<p>Some apps save what your child makes as ordinary files, so you can find them in the phone's Files or Gallery app:</p>
+<div class="wrap">
+<table>
+<tr><th>App</th><th>Folder</th></tr>
+<tr><td>Listen</td><td><code>Audiobooks/Recordings/</code>, or a folder you choose</td></tr>
+<tr><td>Books</td><td><code>Pictures/Books/</code></td></tr>
+<tr><td>Scribble</td><td><code>Pictures/Scribble/</code>, or a folder you choose</td></tr>
+<tr><td>Stop Motion</td><td><code>Movies/StopMotion/</code></td></tr>
+</table>
+</div>
+<p>The apps never send these files anywhere. Other apps on the phone can see them, as with any photo or recording. If you use a backup or sync app such as Google Photos or Syncthing and turn it on for one of these folders, that app copies the files under its own privacy policy. Google Photos doesn't back these folders up unless you turn them on.</p>
+<h3>Pictures and files picked with Android's picker</h3>
+<p>When an app opens Android's own photo or file picker, it can open only the items picked. The apps that use it are Scribble (a photo to draw on), Print (pictures to print) and Stop Motion (a sound track).</p>
+<h3>Language</h3>
+<p>Each app remembers the language chosen for it.</p>
+<h2>What each app keeps and reads</h2>
+<h3>KidHome</h3>
 <ul>
   <li>The home screen you build: page names, which apps are on it, tile colours, labels and emoji, and your child's first name if you type one in for the greeting.</li>
-  <li>Your parent PIN, stored only as a salted hash. The PIN itself is never saved.</li>
-  <li>Whether locked folders have been unlocked today, and whether the app guard is switched on.</li>
+  <li>Your parent PIN, as a salted hash, and whether locked folders have been unlocked today.</li>
+  <li>Whether the app guard is switched on.</li>
+  <li>KidHome reads the list of apps installed on the phone so you can put them on the home screen.</li>
 </ul>
-
-<h3>App guard</h3>
-<p>If you turn on the app guard, KidHome uses Android's usage access to check which app is on screen while the screen is on, so it can bring your child back to KidHome and ask for your PIN. It reads this on the device as it happens and keeps no record of which apps were used.</p>
-
-<h3>Google Family Link</h3>
-<p>KidHome reads which apps Android has hidden or paused, which is how it follows the limits you set in Family Link. It can open the Family Link app or website when you tap those buttons. It doesn't read your Family Link account, settings or activity. KidHome isn't made by or affiliated with Google.</p>
-
-<h2>What KidHome Listen keeps on the device</h2>
+<p><strong>App guard.</strong> If you turn on the app guard, KidHome uses Android's usage access to check which app is on screen while the screen is on, so it can bring your child back to KidHome and ask for your PIN. It reads this on the device as it happens and keeps no record of which apps were used. It also asks Sunrise whether a night is in progress, so it can keep Sunrise in front.</p>
+<p><strong>Google Family Link.</strong> KidHome reads which apps Android has hidden or paused, which is how it follows the limits you set in Family Link. From the parent screen, behind your PIN, it can open the Family Link app or website, or KidHome's page on Google Play, in your browser. It doesn't read your Family Link account, settings or activity. KidHome isn't made by or affiliated with Google.</p>
+<h3>KidHome Listen</h3>
 <ul>
-  <li>Listen reads the music and audiobook files stored on the device so it can show and play them. It never uploads, changes or deletes them.</li>
-  <li>It saves where each audiobook was left, and your last sleep timer choice.</li>
-  <li>It creates the sleep sounds (rain, ocean and so on) on the device.</li>
+  <li>Listen reads the music and audiobook files in <code>Music/</code> and <code>Audiobooks/</code>, or in the folders you choose, so it can show and play them. It never uploads or changes them.</li>
+  <li>It saves where each audiobook was left, the folders you chose, and your last sleep timer and sleep sound choices.</li>
+  <li>It makes the sleep sounds (rain, ocean and so on) on the device.</li>
+  <li><strong>Recordings.</strong> On the Record tab your child can record their voice with the microphone. Listen saves each recording as an audio file in <code>Audiobooks/Recordings/</code>, or a folder you choose, and plays it back like a story. Holding a recording's cover and confirming deletes that file. The microphone is used only while recording.</li>
 </ul>
-
+<h3>KidHome Sunrise</h3>
+<ul>
+  <li>Wake-up and nap times for each day, brightness, the timer, and whether a night is in progress.</li>
+  <li>Any events you add, such as "Grandma's visit", with their date and emoji.</li>
+  <li>Sunrise reads what Listen is playing and its sleep timer, so it can show them at bedtime. It tells KidHome when a night is in progress.</li>
+</ul>
+<h3>KidHome Routine</h3>
+<ul>
+  <li>The routines you set up, with their steps and pictures.</li>
+  <li>Which stickers your child has earned on which days.</li>
+</ul>
+<h3>KidHome Music</h3>
+<ul>
+  <li>Tunes your child saves: the notes played, plus a name and emoji. Music remembers notes, not sound, and doesn't use the microphone.</li>
+</ul>
+<h3>KidHome Books</h3>
+<ul>
+  <li>Books reads the pictures and comic book files in <code>Pictures/Books/</code>, <code>Pictures/Family/</code> and <code>Pictures/Scribble/</code>, or in the folders you choose, so it can show them as books. It doesn't change them.</li>
+  <li>It remembers the last page read in each book.</li>
+  <li>Books your child makes in the Make tab, with the titles and words they type. Their pages are saved as pictures in <code>Pictures/Books/</code>.</li>
+  <li>It can hand a picture to Scribble on the phone for drawing on. Scribble works on a copy, so the original stays as it was.</li>
+</ul>
+<h3>KidHome Games</h3>
+<ul>
+  <li>Games reads the photos in <code>Pictures/Family/</code>, or a folder you choose, to make jigsaws and pairs games. It doesn't change them.</li>
+  <li>Coins earned and what they've unlocked.</li>
+</ul>
+<h3>KidHome Scribble</h3>
+<ul>
+  <li>Your child's drawings, inside the app, with a copy of any photo they draw on.</li>
+  <li>A picture of each saved drawing in <code>Pictures/Scribble/</code>, or a folder you choose.</li>
+  <li>Scribble opens a photo only when your child picks one with Android's photo picker, or when another app on the phone, such as Books, hands one over to draw on.</li>
+</ul>
+<h3>KidHome Letters</h3>
+<ul>
+  <li>Your own voice saying letters and numbers, if you record them in the parent settings. The recordings stay inside the app. The microphone is used only while you record.</li>
+  <li>For any letter you haven't recorded, Letters asks the phone's text-to-speech voice to say it. That voice is part of Android, not Letters. Letters has no internet access, but some text-to-speech engines can use the internet. You can choose the engine in Android's settings.</li>
+</ul>
+<h3>KidHome Balls (99 Balls)</h3>
+<ul>
+  <li>Coins earned and what they've unlocked. 99 Balls asks for no permissions.</li>
+</ul>
+<h3>KidHome Print</h3>
+<ul>
+  <li>Print uses Bluetooth to find your label printer and send it the pictures to print.</li>
+  <li>It remembers the last printer's Bluetooth address and your print settings (darkness, brightness, contrast, gap).</li>
+  <li>It prints pictures picked with Android's photo picker, pictures shared to it from other apps, and documents sent from Android's print menu. A document is copied to a temporary file while it prints and then deleted. Print keeps nothing it printed.</li>
+  <li><strong>Location on Android 11 and older.</strong> Those versions of Android only let an app scan for Bluetooth devices if it holds the location permission. Print asks for it on those phones for that reason only. It never reads your location. On Android 12 and later, Print uses Android's Bluetooth scanning permission marked as not for location, and doesn't ask for location.</li>
+</ul>
+<h3>KidHome Stop Motion</h3>
+<ul>
+  <li>Stop Motion uses the camera to take the frames of your child's film. Frames can show whatever the camera points at, including faces.</li>
+  <li>It uses the microphone to record a narration, if your child adds one, and can use a sound track picked with Android's file picker.</li>
+  <li>Frames, narration and sound tracks stay inside the app until your child exports a film. Exported films are saved as videos in <code>Movies/StopMotion/</code>.</li>
+</ul>
 <h2>Permissions</h2>
 <div class="wrap">
 <table>
-  <tr><th>App</th><th>Permission</th><th>What it's for</th></tr>
-  <tr><td>KidHome</td><td>Usage access</td><td>App guard: seeing which app is on screen. Off unless you turn it on.</td></tr>
-  <tr><td>KidHome</td><td>Display over other apps</td><td>App guard: bringing KidHome back to the front.</td></tr>
-  <tr><td>KidHome</td><td>Run at startup, foreground service, notifications</td><td>Keeping the app guard running, with the notification Android requires.</td></tr>
-  <tr><td>Listen</td><td>Music and audio (read media)</td><td>Finding the music and audiobooks on the device.</td></tr>
-  <tr><td>Listen</td><td>Foreground service, wake lock</td><td>Playing in the background with lock-screen controls.</td></tr>
-  <tr><td>Listen</td><td>View network state</td><td>Added by Android's media library. It can only see whether the device is online. Listen has no internet permission.</td></tr>
+<tr><th>App</th><th>Permission</th><th>What it's for</th></tr>
+<tr><td>KidHome</td><td>Usage access</td><td>App guard: seeing which app is on screen. Off unless you turn it on.</td></tr>
+<tr><td>KidHome</td><td>Display over other apps</td><td>App guard: bringing KidHome back to the front.</td></tr>
+<tr><td>KidHome</td><td>Run at startup, foreground service, notifications</td><td>Keeping the app guard running, with the notification Android requires.</td></tr>
+<tr><td>Listen</td><td>Music and audio (read media); storage on Android 12 and older</td><td>Finding the music and audiobooks on the device.</td></tr>
+<tr><td>Listen</td><td>Microphone</td><td>Recording on the Record tab.</td></tr>
+<tr><td>Listen</td><td>Write storage, Android 9 and older only</td><td>Saving recordings as files on older phones.</td></tr>
+<tr><td>Listen</td><td>Foreground service, wake lock</td><td>Playing in the background with lock-screen controls.</td></tr>
+<tr><td>Listen</td><td>View network state</td><td>Added by Android's media library. It can only see whether the device is online. Listen has no internet permission.</td></tr>
+<tr><td>Sunrise</td><td>Alarms and exact alarms</td><td>Starting and ending the night at the times you set.</td></tr>
+<tr><td>Sunrise</td><td>Full-screen notifications, notifications</td><td>Showing Sunrise at wake-up time, as an alarm clock does.</td></tr>
+<tr><td>Sunrise</td><td>Run at startup</td><td>Setting the alarms again after the phone restarts.</td></tr>
+<tr><td>Sunrise</td><td>Foreground service, wake lock</td><td>Playing the wake-up sound and keeping the night running.</td></tr>
+<tr><td>Sunrise</td><td>View network state</td><td>Added by Android's media library. It can only see whether the device is online. Sunrise has no internet permission.</td></tr>
+<tr><td>Routine</td><td>None</td><td></td></tr>
+<tr><td>Music</td><td>None</td><td></td></tr>
+<tr><td>Books</td><td>Photos (read media images, or selected photos only); storage on Android 12 and older</td><td>Showing the pictures in the book folders.</td></tr>
+<tr><td>Books</td><td>Write storage, Android 9 and older only</td><td>Saving made books as pictures on older phones.</td></tr>
+<tr><td>Games</td><td>Photos (read media images, or selected photos only); storage on Android 12 and older</td><td>Making games from the family photos folder.</td></tr>
+<tr><td>Scribble</td><td>Write storage, Android 9 and older only</td><td>Saving drawings as pictures on older phones.</td></tr>
+<tr><td>Letters</td><td>Microphone</td><td>Recording your voice for each letter and number, in the parent settings.</td></tr>
+<tr><td>99 Balls</td><td>None</td><td></td></tr>
+<tr><td>Print</td><td>Nearby devices (Bluetooth scan and connect)</td><td>Finding and connecting to your printer. Marked as not used for location.</td></tr>
+<tr><td>Print</td><td>Bluetooth, Android 11 and older</td><td>Finding and connecting to your printer on older phones.</td></tr>
+<tr><td>Print</td><td>Location, Android 11 and older only</td><td>Required by those Android versions to scan for Bluetooth. Print never reads it.</td></tr>
+<tr><td>Print</td><td>Foreground service</td><td>Keeping a print going until it finishes, with a notification while it prints.</td></tr>
+<tr><td>Print</td><td>Print service</td><td>Letting you print documents to your printer from Android's print menu.</td></tr>
+<tr><td>Stop Motion</td><td>Camera</td><td>Taking the frames of the film.</td></tr>
+<tr><td>Stop Motion</td><td>Microphone</td><td>Recording a narration.</td></tr>
+<tr><td>Stop Motion</td><td>Write storage, Android 9 and older only</td><td>Saving films as videos on older phones.</td></tr>
+<tr><td>Stop Motion</td><td>View network state</td><td>Added by Android's media library. It can only see whether the device is online. Stop Motion has no internet permission.</td></tr>
 </table>
 </div>
-
 <h2>Children</h2>
-<p>Both apps are made for children to use after a parent or carer sets them up. Children can't send us any information through the apps, because the apps have no way to send anything.</p>
-
+<p>The apps are made for children to use after a parent or carer sets them up. Children can't send us any information through the apps, because the apps have no way to send anything.</p>
 <h2>Removing your data</h2>
-<p>Everything the apps keep stays on the device. Uninstalling an app, or clearing its storage in Android's settings, removes it. Your music and audiobook files aren't touched.</p>
-
+<p>Uninstalling an app, or clearing its storage in Android's settings, removes everything it keeps inside the app. Files saved to the folders listed above stay until you delete them in the phone's Files or Gallery app. Your own music, audiobooks and photos aren't touched.</p>
 <h2>Changes</h2>
 <p>If this policy changes, the new version will be posted here with a new date.</p>
-
 <h2>Contact</h2>
 <p>Questions: <a href="mailto:help@oddvalue.co.uk">help@oddvalue.co.uk</a></p>
 </main>
