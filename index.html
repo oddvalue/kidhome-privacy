@@ -26,7 +26,7 @@
 <body>
 <main>
 <h1>Privacy policy: the KidHome apps</h1>
-<p class="muted">Made by Oddvalue. Effective 24 October 2026.</p>
+<p class="muted">Made by Oddvalue. Effective 25 October 2026.</p>
 <p>This policy covers these apps:</p>
 <ul>
   <li>KidHome</li>
@@ -45,7 +45,7 @@
 </ul>
 <h2>In short</h2>
 <div class="summary">
-<p>Oddvalue doesn't collect, share or sell any information about you or your child. The store editions have no internet permission and do not send data to Oddvalue or an online service. Print sends the pictures or documents you choose to a nearby Bluetooth printer. Other apps you enable, such as backup or sync tools, may copy files saved in shared folders under their own settings and policies. There are no ads, no accounts, no analytics, no crash reports and no in-app purchases. The coins in Games and 99 Balls are earned by playing and can't be bought.</p>
+<p>Oddvalue doesn't collect, share or sell any information about you or your child. The store editions have no internet permission and do not send data to Oddvalue or an online service. Print sends the pictures or documents you choose to a nearby Bluetooth printer, without encryption. Other apps you enable, such as backup or sync tools, may copy files saved in shared folders under their own settings and policies. There are no ads, no accounts, no analytics, no crash reports and no in-app purchases. The coins in Games and 99 Balls are earned by playing and can't be bought.</p>
 </div>
 <p>Everything the apps keep is stored on the phone or tablet they're installed on. The rest of this page says what each app keeps, where it keeps it, and why it needs each permission.</p>
 <h2>How every app works</h2>
@@ -131,10 +131,12 @@
 </ul>
 <h3>KidHome Print</h3>
 <ul>
-  <li>Print uses Bluetooth to find your label printer and send it the pictures to print.</li>
-  <li>It remembers the last printer's Bluetooth address and your print settings (darkness, brightness, contrast, gap).</li>
-  <li>It prints pictures picked with Android's photo picker, pictures shared to it from other apps, and documents sent from Android's print menu. A document is copied to a temporary file while it prints and then deleted. Print keeps nothing it printed.</li>
-  <li><strong>Location on Android 11 and older.</strong> Those versions of Android only let an app scan for Bluetooth devices if it holds the location permission. Print asks for it on those phones for that reason only. It never reads your location. On Android 12 and later, Print uses Android's Bluetooth scanning permission marked as not for location, and doesn't ask for location.</li>
+  <li>Print sends only the pictures or documents you choose to the nearby Bluetooth printer you select in Android's device list. It does not send them to Oddvalue or an online service. This Bluetooth transfer is not encrypted.</li>
+  <li>Print finds your printer with Android's companion device chooser, so it does not scan for Bluetooth devices itself and does not ask for location. Android keeps the companion-device association, which you can remove in Android's settings.</li>
+  <li>Print keeps your print settings (darkness, brightness, contrast, gap) and your chosen printer's address, name and driver on the phone.</li>
+  <li>It prints pictures picked with Android's photo picker, pictures shared to it from other apps, and documents sent from Android's print menu. Print processes pictures in memory. PDFs may be copied to its private cache and are normally deleted after rendering. If Print is interrupted, a cached file can stay until you clear the app's storage. Print keeps no copy of what it printed.</li>
+  <li><strong>Nearby devices on Android 12 and later.</strong> Android shows this as a permission to connect to nearby devices. Print uses it only to connect to the printer you chose. It is not used for location.</li>
+  <li>Printed paper stays with you. We have not verified whether printer firmware keeps job data, so we make no promise about what the printer retains.</li>
 </ul>
 <h3>KidHome Stop Motion</h3>
 <ul>
@@ -174,9 +176,8 @@
 <tr><td>Scribble</td><td>Write storage, Android 9 and older only</td><td>Saving drawings as pictures on older phones.</td></tr>
 <tr><td>Letters</td><td>Microphone</td><td>Recording your voice for each letter and number, in the parent settings.</td></tr>
 <tr><td>99 Balls</td><td>None</td><td></td></tr>
-<tr><td>Print</td><td>Nearby devices (Bluetooth scan and connect)</td><td>Finding and connecting to your printer. Marked as not used for location.</td></tr>
-<tr><td>Print</td><td>Bluetooth, Android 11 and older</td><td>Finding and connecting to your printer on older phones.</td></tr>
-<tr><td>Print</td><td>Location, Android 11 and older only</td><td>Required by those Android versions to scan for Bluetooth. Print never reads it.</td></tr>
+<tr><td>Print</td><td>Nearby devices (Bluetooth connect), Android 12 and later</td><td>Connecting to the printer you chose in Android's device list. Not used for location.</td></tr>
+<tr><td>Print</td><td>Bluetooth, Android 11 and older</td><td>Connecting to your printer on older phones.</td></tr>
 <tr><td>Print</td><td>Foreground service</td><td>Keeping a print going until it finishes, with a notification while it prints.</td></tr>
 <tr><td>Print</td><td>Print service</td><td>Letting you print documents to your printer from Android's print menu.</td></tr>
 <tr><td>Stop Motion</td><td>Camera</td><td>Taking the frames of the film.</td></tr>
