@@ -41,6 +41,7 @@
   <li>KidHome Balls (called 99 Balls on the phone)</li>
   <li>KidHome Print</li>
   <li>KidHome Stop Motion</li>
+  <li>KidHome Snap</li>
 </ul>
 <h2>In short</h2>
 <div class="summary">
@@ -61,6 +62,7 @@
 <tr><td>Books</td><td><code>Pictures/Books/</code></td></tr>
 <tr><td>Scribble</td><td><code>Pictures/Scribble/</code>, or a folder you choose</td></tr>
 <tr><td>Stop Motion</td><td><code>Movies/StopMotion/</code></td></tr>
+<tr><td>Snap</td><td><code>Pictures/Snap/</code></td></tr>
 </table>
 </div>
 <p>The apps never send these files anywhere. Other apps on the phone can see them, as with any photo or recording. If you use a backup or sync app such as Google Photos or Syncthing and turn it on for one of these folders, that app copies the files under its own privacy policy. Google Photos doesn't back these folders up unless you turn them on.</p>
@@ -140,6 +142,13 @@
   <li>It uses the microphone to record a narration, if your child adds one, and can use a sound track picked with Android's file picker.</li>
   <li>Frames, narration and sound tracks stay inside the app until your child exports a film. Exported films are saved as videos in <code>Movies/StopMotion/</code>.</li>
 </ul>
+<h3>KidHome Snap</h3>
+<ul>
+  <li>Snap uses the camera to take photos. Photos can show whatever the camera points at, including faces. Snap doesn't use the microphone or the phone's location.</li>
+  <li>Each photo is saved as a JPEG in <code>Pictures/Snap/</code> on the phone, and Snap's gallery shows the photos it took. Snap has no internet permission and uploads nothing. The photos stay on the phone unless a parent turns on Google Photos backup for that folder. Then Google Photos does the uploading, under its own privacy policy, not Snap.</li>
+  <li>Snap has no accounts, ads, analytics or settings, and no PIN. It can't delete photos. A parent can delete them in the phone's Files or Gallery app.</li>
+  <li>A photo can be opened in Scribble on the phone to draw on. Scribble works on a copy, so the original stays as it was.</li>
+</ul>
 <h2>Permissions</h2>
 <div class="wrap">
 <table>
@@ -174,6 +183,8 @@
 <tr><td>Stop Motion</td><td>Microphone</td><td>Recording a narration.</td></tr>
 <tr><td>Stop Motion</td><td>Write storage, Android 9 and older only</td><td>Saving films as videos on older phones.</td></tr>
 <tr><td>Stop Motion</td><td>View network state</td><td>Added by Android's media library. It can only see whether the device is online. Stop Motion has no internet permission.</td></tr>
+<tr><td>Snap</td><td>Camera</td><td>Taking photos.</td></tr>
+<tr><td>Snap</td><td>Write storage, Android 9 and older only</td><td>Saving photos in <code>Pictures/Snap/</code> on older phones.</td></tr>
 </table>
 </div>
 <h2>Children</h2>
